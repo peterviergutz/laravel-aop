@@ -3,6 +3,7 @@
 namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
+use PhpDeal\Annotation as Contract;
 
 class Sandbox extends Command
 {
@@ -34,6 +35,7 @@ class Sandbox extends Command
      * Execute the console command.
      *
      * @return mixed
+     * @Contract\Verify("100 > 200")
      */
     public function handle()
     {

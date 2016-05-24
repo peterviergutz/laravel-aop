@@ -4,9 +4,62 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c6f07f90a0ebce33bc1bc701f7d573b9",
-    "content-hash": "253019e7241c0cea8eb75b7050c551e3",
+    "hash": "216cd4c9a44d53b7dfce1429a07cfc6a",
+    "content-hash": "e8e1c7874c8821b7891ab93b089a7b23",
     "packages": [
+        {
+            "name": "beberlei/assert",
+            "version": "v2.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/beberlei/assert.git",
+                "reference": "91e2690c4ecc8a4e3e2d333430069f6a0c694a7a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/beberlei/assert/zipball/91e2690c4ecc8a4e3e2d333430069f6a0c694a7a",
+                "reference": "91e2690c4ecc8a4e3e2d333430069f6a0c694a7a",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "@stable"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Assert": "lib/"
+                },
+                "files": [
+                    "lib/Assert/functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Benjamin Eberlei",
+                    "email": "kontakt@beberlei.de"
+                }
+            ],
+            "description": "Thin assertion library for input validation in business models.",
+            "keywords": [
+                "assert",
+                "assertion",
+                "validation"
+            ],
+            "time": "2016-03-22 14:34:51"
+        },
         {
             "name": "classpreloader/classpreloader",
             "version": "3.0.0",
@@ -844,6 +897,46 @@
                 "storage"
             ],
             "time": "2016-04-28 06:53:12"
+        },
+        {
+            "name": "lisachenko/php-deal",
+            "version": "0.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lisachenko/php-deal.git",
+                "reference": "a1e3bd96f8b02ddfac9126e95a79cfc8ee6d8b22"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lisachenko/php-deal/zipball/a1e3bd96f8b02ddfac9126e95a79cfc8ee6d8b22",
+                "reference": "a1e3bd96f8b02ddfac9126e95a79cfc8ee6d8b22",
+                "shasum": ""
+            },
+            "require": {
+                "beberlei/assert": "^2.4",
+                "goaop/framework": "~1.0|~2.0@dev"
+            },
+            "require-dev": {
+                "symfony/console": "~2.7|~3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PhpDeal\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alexander Lisachenko",
+                    "email": "lisachenko.it@gmail.com"
+                }
+            ],
+            "description": "Design by Contract framework for PHP",
+            "time": "2016-04-03 17:59:11"
         },
         {
             "name": "monolog/monolog",
