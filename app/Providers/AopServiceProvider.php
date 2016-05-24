@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use Illuminate\Contracts\Foundation\Application;
 use App\Aspect\LoggingAspect;
 use Illuminate\Support\ServiceProvider;
 use Psr\Log\LoggerInterface;
